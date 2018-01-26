@@ -31,10 +31,10 @@
         <property name="suffix" value=".jsp"/>
     </bean>
     <!--4) 单独处理图片、样式、js等资源 -->
-    <!--<mvc:resources location="/css/" mapping="/css/**"/>-->
-    <!--<mvc:resources location="/images/" mapping="/images/**"/>-->
-    <!--<mvc:resources location="/js/" mapping="/js/**"/>-->
-    <!--<mvc:resources location="/upload/" mapping="/upload/**"/>-->
+    <mvc:resources location="/css/" mapping="/css/**"/>
+    <mvc:resources location="/images/" mapping="/images/**"/>
+    <mvc:resources location="/fonts/" mapping="/fonts/**"/>
+    <mvc:resources location="/js/" mapping="/js/**"/>
     <!--文件上传-->
     <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
         <!-- 必须和用户JSP 的pageEncoding属性一致，以便正确解析表单的内容 -->

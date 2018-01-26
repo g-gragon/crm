@@ -76,7 +76,7 @@
         <!--<table schema="" tableName="t_type" domainObjectName="Type"-->
                <!--enableCountByExample="false" enableDeleteByExample="false"-->
                <!--enableSelectByExample="false" enableUpdateByExample="false"/>-->
-        <table schema="" tableName="t_role" domainObjectName="Product"
+        <table schema="" tableName="t_" domainObjectName="Product"
                enableCountByExample="false" enableDeleteByExample="false"
                enableSelectByExample="false" enableUpdateByExample="false"/>
 

@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
 
@@ -19,7 +18,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="return" type="{http://biz.sell.zking.com/}product" maxOccurs="unbounded" minOccurs="0"/>
+ *         &lt;element name="result" type="{http://biz.sell.zking.com/}storage" maxOccurs="unbounded" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -30,40 +29,39 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "listResponse", propOrder = {
-    "_return"
+    "result"
 })
 public class ListResponse {
 
-    @XmlElement(name = "return")
-    protected List<Product> _return;
+    protected List<Storage> result;
 
     /**
-     * Gets the value of the return property.
+     * Gets the value of the result property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the return property.
+     * This is why there is not a <CODE>set</CODE> method for the result property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getReturn().add(newItem);
+     *    getResult().add(newItem);
      * </pre>
      * 
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Product }
+     * {@link Storage }
      * 
      * 
      */
-    public List<Product> getReturn() {
-        if (_return == null) {
-            _return = new ArrayList<Product>();
+    public List<Storage> getResult() {
+        if (result == null) {
+            result = new ArrayList<Storage>();
         }
-        return this._return;
+        return this.result;
     }
 
 }

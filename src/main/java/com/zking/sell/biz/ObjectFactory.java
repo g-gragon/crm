@@ -51,19 +51,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Product }
+     * Create an instance of {@link Storage }
      * 
      */
-    public Product createProduct() {
-        return new Product();
-    }
-
-    /**
-     * Create an instance of {@link PageBean }
-     * 
-     */
-    public PageBean createPageBean() {
-        return new PageBean();
+    public Storage createStorage() {
+        return new Storage();
     }
 
     /**

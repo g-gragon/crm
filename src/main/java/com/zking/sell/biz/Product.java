@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>product complex type锟斤拷 Java 锟洁。
+ * <p>product complex type的 Java 类。
  * 
- * <p>锟斤拷锟斤拷模式片锟斤拷指锟斤拷锟斤拷锟斤拷锟节达拷锟斤拷锟叫碉拷预锟斤拷锟斤拷锟捷★拷
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="product">
@@ -52,7 +52,7 @@ public class Product {
     protected String proUnit;
 
     /**
-     * 锟斤拷取proBatch锟斤拷锟皆碉拷值锟斤拷
+     * 获取proBatch属性的值。
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class Product {
     }
 
     /**
-     * 锟斤拷锟斤拷proBatch锟斤拷锟皆碉拷值锟斤拷
+     * 设置proBatch属性的值。
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class Product {
     }
 
     /**
-     * 锟斤拷取proId锟斤拷锟皆碉拷值锟斤拷
+     * 获取proId属性的值。
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class Product {
     }
 
     /**
-     * 锟斤拷锟斤拷proId锟斤拷锟皆碉拷值锟斤拷
+     * 设置proId属性的值。
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class Product {
     }
 
     /**
-     * 锟斤拷取proName锟斤拷锟皆碉拷值锟斤拷
+     * 获取proName属性的值。
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class Product {
     }
 
     /**
-     * 锟斤拷锟斤拷proName锟斤拷锟皆碉拷值锟斤拷
+     * 设置proName属性的值。
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class Product {
     }
 
     /**
-     * 锟斤拷取proPrice锟斤拷锟皆碉拷值锟斤拷
+     * 获取proPrice属性的值。
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class Product {
     }
 
     /**
-     * 锟斤拷锟斤拷proPrice锟斤拷锟皆碉拷值锟斤拷
+     * 设置proPrice属性的值。
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class Product {
     }
 
     /**
-     * 锟斤拷取proRemark锟斤拷锟皆碉拷值锟斤拷
+     * 获取proRemark属性的值。
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class Product {
     }
 
     /**
-     * 锟斤拷锟斤拷proRemark锟斤拷锟皆碉拷值锟斤拷
+     * 设置proRemark属性的值。
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class Product {
     }
 
     /**
-     * 锟斤拷取proType锟斤拷锟皆碉拷值锟斤拷
+     * 获取proType属性的值。
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class Product {
     }
 
     /**
-     * 锟斤拷锟斤拷proType锟斤拷锟皆碉拷值锟斤拷
+     * 设置proType属性的值。
      * 
      * @param value
      *     allowed object is
@@ -196,7 +196,7 @@ public class Product {
     }
 
     /**
-     * 锟斤拷取proUnit锟斤拷锟皆碉拷值锟斤拷
+     * 获取proUnit属性的值。
      * 
      * @return
      *     possible object is
@@ -208,7 +208,7 @@ public class Product {
     }
 
     /**
-     * 锟斤拷锟斤拷proUnit锟斤拷锟皆碉拷值锟斤拷
+     * 设置proUnit属性的值。
      * 
      * @param value
      *     allowed object is
@@ -219,16 +219,4 @@ public class Product {
         this.proUnit = value;
     }
 
-    @Override
-    public String toString() {
-        return "Product{" +
-                "proBatch='" + proBatch + '\'' +
-                ", proId=" + proId +
-                ", proName='" + proName + '\'' +
-                ", proPrice=" + proPrice +
-                ", proRemark='" + proRemark + '\'' +
-                ", proType='" + proType + '\'' +
-                ", proUnit='" + proUnit + '\'' +
-                '}';
-    }
 }

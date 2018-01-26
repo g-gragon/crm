@@ -16,8 +16,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="product" type="{http://biz.sell.zking.com/}product" minOccurs="0"/>
- *         &lt;element name="pageBean" type="{http://biz.sell.zking.com/}pageBean" minOccurs="0"/>
+ *         &lt;element name="storage" type="{http://biz.sell.zking.com/}storage" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -28,60 +27,34 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "list", propOrder = {
-    "product",
-    "pageBean"
+    "storage"
 })
 public class List {
 
-    protected Product product;
-    protected PageBean pageBean;
+    protected Storage storage;
 
     /**
-     * 获取product属性的值。
+     * 获取storage属性的值。
      * 
      * @return
      *     possible object is
-     *     {@link Product }
+     *     {@link Storage }
      *     
      */
-    public Product getProduct() {
-        return product;
+    public Storage getStorage() {
+        return storage;
     }
 
     /**
-     * 设置product属性的值。
+     * 设置storage属性的值。
      * 
      * @param value
      *     allowed object is
-     *     {@link Product }
+     *     {@link Storage }
      *     
      */
-    public void setProduct(Product value) {
-        this.product = value;
-    }
-
-    /**
-     * 获取pageBean属性的值。
-     * 
-     * @return
-     *     possible object is
-     *     {@link PageBean }
-     *     
-     */
-    public PageBean getPageBean() {
-        return pageBean;
-    }
-
-    /**
-     * 设置pageBean属性的值。
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link PageBean }
-     *     
-     */
-    public void setPageBean(PageBean value) {
-        this.pageBean = value;
+    public void setStorage(Storage value) {
+        this.storage = value;
     }
 
 }

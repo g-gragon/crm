@@ -12,7 +12,8 @@
     <import resource="classpath*:META-INF/cxf/cxf-extension-soap.xml" />
     <import resource="classpath*:META-INF/cxf/cxf-servlet.xml" />
 
-    <jaxws:client id="Product" serviceClass="com.zking.sell.biz.impl.IProductBiz" address="http://localhost:8080/sell/services/Product"></jaxws:client>
+    <jaxws:client id="product" serviceClass="com.zking.sell.biz.IProductBiz" address="http://localhost:8080/sell/services/product"/>
+    <jaxws:client id="storage" serviceClass="com.zking.sell.biz.IStorageBiz" address="http://localhost:8080/sell/services/storage"/>
 
 
 
